@@ -1,0 +1,35 @@
+{
+    "name": "ajnotes-typst",
+    "displayName": "ajnotes (Typst)",
+    "description": "Preview or export the whole document (notes or exercise sheet) a Typst file belongs to.",
+    "version": "0.2.0",
+    "publisher": "ajnotes",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "main": "./extension.js",
+    "activationEvents": [
+        "onLanguage:typst"
+    ],
+    "extensionDependencies": [
+        "myriad-dreamin.tinymist"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "ajnotes.previewDocument",
+                "title": "Preview Document",
+                "category": "ajnotes"
+            },
+            {
+                "command": "ajnotes.exportDocument",
+                "title": "Export Document PDF",
+                "category": "ajnotes"
+            }
+        ]
+    }
+}

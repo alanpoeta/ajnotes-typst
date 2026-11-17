@@ -1,0 +1,8 @@
+[package]
+name = "ajnotes"
+version = "0.1.0"
+entrypoint = "lib.typ"
+compiler = "0.15.0"
+authors = ["ajnotes contributors"]
+license = "MIT"
+description = "Lecture notes and exercise solutions in Typst, after Gilles Castel's setup."
